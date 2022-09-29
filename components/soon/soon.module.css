@@ -1,46 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
-
-html, body, div, span,h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-body{line-height: 1;font-family: "Raleway";background-color: #181818; color: #fff}
-
 .main-content {
     height:100vh;
     position: relative;
     text-align:center;
-    width:100%;
-    margin: auto 0}
+    width:100%;}
 h1 {
     animation: 2s explode_title infinite;
+
     font-size:40px;
     font-weight:400;
     position:absolute;
     text-transform: uppercase;
-    top:50%;
+    top:150px;
     transform:translate3d(0,0,0);
     width:100%;
 }
 .bounced-word {
+
     display:block;
+
     font-size:22px;
     font-weight:600;
     position:absolute;
     text-align:center;
     text-transform: uppercase;
-    top:56%;
+    top:230px;
     transform:translate3d(0,-200px,0);
     width:100%;
 }
-.anim_1 {animation: 2s bounced-word infinite, 8s hide infinite; color: red}
-.anim_2 {animation: 2s bounced-word infinite, 8s hidetwo infinite;color: yellow}
-.anim_3 {animation: 2s bounced-word infinite, 8s hidethree infinite; color: red}
-.anim_4 {animation: 2s bounced-word infinite, 8s hidefour infinite; color: yellow}
+.anim_1 {animation: 2s bounced-word infinite, 8s hide infinite;}
+.anim_2 {animation: 2s bounced-word infinite, 8s hidetwo infinite;}
+.anim_3 {animation: 2s bounced-word infinite, 8s hidethree infinite;}
+.anim_4 {animation: 2s bounced-word infinite, 8s hidefour infinite;}
 
 @keyframes explode_title {
     10% {
@@ -151,8 +141,4 @@ h1 {
     76%, 100% {
         visibility:visible;
     }
-}
-@media only screen and (max-width: 600px) {
-    h1{top: 47%;font-size: 30px}
-    .bounced-word{top:56%; font-size: 16px}
 }
