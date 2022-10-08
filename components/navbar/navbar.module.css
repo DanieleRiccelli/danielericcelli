@@ -1,0 +1,10 @@
+.NavContainer{background-color:rgba(42,43,56,.5); position: fixed;left: 0;border: .2rem solid #2b2424;-webkit-backdrop-filter: blur(104px);backdrop-filter: blur(104px); right: 0;height: 70px;width: 50% ; display: flex; align-items: center; justify-content: space-between;padding: 0 40px; top: 3rem; margin: 0 auto; border-radius: 20px}
+.navLink {color: #c4c4c4; transition: none; text-decoration: none;font-weight: 700}
+.navLink:hover{color: #c4c4c4}
+.navContainer{display: flex; gap: 40px;list-style-type: none;margin: 0 !important;padding: 0 !important}
+
+@media screen and (max-width: 600px) {
+    .NavContainer{
+        width: 85%;
+    }
+}

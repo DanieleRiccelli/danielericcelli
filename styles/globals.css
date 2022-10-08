@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&display=swap');
 
-html, body, div, span,h1, h2, h3, h4, h5, h6, p{
+html, body, div, span,h1, h2, h3, h4, h5, h6, p, ul, li{
     margin: 0;
     padding: 0;
     border: 0;
@@ -8,5 +8,6 @@ html, body, div, span,h1, h2, h3, h4, h5, h6, p{
     font: inherit;
     vertical-align: baseline;
 }
-body{line-height: 1;font-family: "Raleway";background-color: #181818; color: #fff}
-h1{font-size: 110px; font-weight: 800}
+html { scroll-behavior: smooth; }
+body{font-family: "Raleway" !important;background-color: #181818 !important; color: #fff !important}
+h1{font-size: 110px; line-height: 140px; font-weight: 800}
