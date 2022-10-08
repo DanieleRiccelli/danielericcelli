@@ -1,0 +1,16 @@
+.PageContainer h1{font-size: 100px; font-weight: 800; line-height: 120px}
+.PageContainer h2{font-size: 40px;line-height: 60px}
+.PageContainer h4 {font-size: 30px; margin-top: 20px}
+.PageContainer{height: 100vh; display: flex; flex-direction: column; justify-content: center}
+.color{color: #83b0ff !important}
+.onlyMob{display: none}
+.onlyDesk{display: block}
+.SocialContainer{display: flex; gap: 20px}
+@media screen and (max-width: 600px) {
+    .PageContainer h1{font-size: 40px; line-height: 54px}
+    .PageContainer h2{font-size: 24px; line-height: 28px}
+    .onlyDesk{display: none}
+    .onlyMob{display: block}
+    .imageNext{width: 240px}
+    .PageContainer h4{font-size: 20px}
+}

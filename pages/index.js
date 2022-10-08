@@ -1,11 +1,14 @@
 import styles from '../styles/Home.module.css'
-import Soon from "../components/soon/soon";
-
+import Page1 from "./page1";
+import Page2 from "./page2";
+import Page3 from "./page3";
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-        <Soon/>
-    </div>
-  )
+    return (
+        <div className="container">
+            <Page1/>
+            <Page2/>
+            <Page3/>
+        </div>
+    )
 }
