@@ -6,9 +6,9 @@ export default function Page3() {
         <div className={styles.PageContainer} id="contatti">
             <h2>Rimaniamo in contatto!</h2>
             <div className={styles.SocialContainer}>
-                <a href="https://www.instagram.com/dan.ric95/" target="_blank" rel="noopener"><img width={60} src="/instagram.svg"/></a>
-                <a href="https://www.linkedin.com/in/danielericcelli/" target="_blank" rel="noopener"><img width={60} src="/linkedin.svg"/></a>
-                <a href="mailto:info@danielericcelli.it" target="_blank" rel="noopener"><img width={60} src="/mail.svg"/></a>
+                <a href="https://www.instagram.com/dan.ric95/"><img width={60} src="/instagram.svg"/></a>
+                <a href="https://www.linkedin.com/in/danielericcelli/"><img width={60} src="/linkedin.svg"/></a>
+                <a href="mailto:info@danielericcelli.it"><img width={60} src="/mail.svg"/></a>
             </div>
         </div>
     )
