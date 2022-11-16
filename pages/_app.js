@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     if (typeof window !== 'undefined') {
       const loader = document.getElementById('globalLoader');
       if (loader)
-        setTimeout(() => loader.style.display = 'none', 6000 ) ;
+        setTimeout(() => loader.style.display = 'none', 1500 ) ;
     }
   }, []);
 
